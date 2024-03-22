@@ -1,0 +1,68 @@
+body {
+    background-image: url("bg-img.jpg");
+    background-size: cover;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: lightgrey;
+    text-shadow: 1px 1px 5px black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#result {
+    /* background-color: ; */
+    font-size: 60px;
+}
+
+#body {
+    backdrop-filter: invert(75%);
+    border-radius: 20px;
+    width: 50%;
+    max-width: 500px;
+    height: 80vh;
+    max-height: fit-content;
+    overflow: hidden;
+    margin: auto;
+    /* padding: 10px; */
+    /* background: rgba(255, 255, 255, 90%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#times-container {
+    width: 40%;
+    height: 50%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.time {
+    height: 30px;
+    background: rgba(255, 255, 255, 75%);
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    width: 40%;
+    margin: 40px auto;
+    padding: 15px;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}

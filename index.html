@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="body">
+        <h1>Enter you solved times in the fields below to see your average of 5</h1>
+        <div id="times-container">
+            <input type="text" placeholder="Time #1" class ="time" id="time-1">
+            <input type="text" placeholder="Time #2" class ="time" id="time-2">
+            <input type="text" placeholder="Time #3" class ="time" id="time-3">
+            <input type="text" placeholder="Time #4" class ="time" id="time-4">
+            <input type="text" placeholder="Time #5" class ="time" id="time-5">
+        </div>
+        <div id="buttons">
+            <button id="show-result" onclick="showResult()">SHOW RESULT</button>
+            <button id="reset-time" onclick="resetTime()">RESET</button>
+        </div>
+        <h2>Your current ao5 is: </h2>
+        <h1 id="result">0</h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
